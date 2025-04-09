@@ -17,15 +17,22 @@
                 <h1> USO DE LOS ELECTRODOMESTICOS/USE OF APPLIANCES </h1>
                 <p> En lo siguientes videos te explicamos brevemente como funcionan nuestros electrodomesticos </p>
                 <p>In the following videos we briefly explain how our appliances work.</p>
-
-                <nav>
-                    <a href="Penthousechico.html">Penthouse chico </a>
-
-                </nav>
-                <nav>
-                    <a href="Penthousegrande.html">Penthouse chico </a>
-
-                </nav>
+         
+                <div>
+                    <!-- Contenedor de las pestañas -->
+                    <div class="tabs-container">
+                      <a href="Penthousechico.html" class="tab-link active" data-tab="tab1">Pestaña 1</a>
+                      <a href="Penthousegrande.html" class="tab-link" data-tab="tab2">Pestaña 2</a>
+                    </div>
+                
+                    <!-- Contenido de las pestañas -->
+                    <div id="tab1" class="tab-content active">
+                      <p>Contenido de la Pestaña 1</p>
+                    </div>
+                    <div id="tab2" class="tab-content">
+                      <p>Contenido de la Pestaña 2</p>
+                    </div>
+                  </div>
               
             </div>
         </div>
