@@ -13,10 +13,7 @@ background-image: url(logo2.jpeg);
 
 }
 
-.tabs-container {
-  display: flex;
-  gap: 10px;
-}
+
 
 /* Estilo de cada pestaña */
 .tab {
@@ -49,7 +46,7 @@ background-image: url(logo2.jpeg);
 
 /* Mostrar el contenido activo */
 .tab-content.active {
-  display: block;
+  display: flex;
 }
 
 .video-grid {
