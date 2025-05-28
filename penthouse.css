@@ -27,28 +27,29 @@ background-image: url(logo2.jpeg);
 
 .tab-link {
   flex: 1 1 0;
-  aspect-ratio: 1/1;                /* Cuadrado */
-  height: 100%;                     /* Ocupa todo el alto del contenedor .tabs */
-  font-size: 2.5vw;                 /* Más grande y adaptable */
+  aspect-ratio: 1/1;
+  height: 100%;
+  font-size: 2.5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 25px;
   border: 4px solid #ccc;
-  background: #fff;
+  background: #4a90e2;  /* Color base azul */
+  color: #fff;          /* Texto blanco */
   box-shadow: 0 4px 24px rgba(0,0,0,0.1);
   transition: transform 0.2s, background 0.3s, color 0.3s;
   text-align: center;
 }
 
+/* Color al pasar el cursor */
 .tab-link:hover,
 .tab-link.active {
-  background: #f1d77779;
+  background: #f5a623;  /* Color de cambio al pasar el mouse (naranja) */
   color: #fff;
-  border-color: #f1d77779;
+  border-color: #f5a623;
   transform: scale(1.03);
 }
-
 .video-grid {
 
   display: grid;
