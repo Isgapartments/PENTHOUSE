@@ -31,11 +31,16 @@ background-image: url(logo2.jpeg);
   justify-content: center;
 }
 
-/* Responsive: Ajusta aún más para pantallas pequeñas */
-@media (max-width: 600px) {
+.tabs {
+  display: flex;
+  flex-direction: row; /* Horizontal en escritorio */
+  gap: 1rem; /* Espacio entre tabs, opcional */
+}
+
+/* Para dispositivos móviles y tablets */
+@media (max-width: 768px) {
   .tabs {
-    font-size: 14px;
-    padding: 4px 8px;
+    flex-direction: column; /* Vertical en pantallas pequeñas */
   }
 }
 
