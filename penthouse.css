@@ -35,21 +35,22 @@ background-image: url(logo2.jpeg);
   align-items: center;
   border-radius: 25px;
   border: 4px solid #ccc;
-  background: #e7c797cc;  /* Color de fondo */
-  color: #000000;         /* Color de texto visible */
+  background: #f8e4a4;   /* Beige */
+  color: #000;           /* Negro */
+  font-weight: bold;     /* Negrita */
   box-shadow: 0 4px 24px rgba(255, 255, 255, 0.1);
   transition: transform 0.2s, background 0.3s, color 0.3s;
   text-align: center;
 }
 
-/* Color al pasar el cursor */
 .tab-link:hover,
 .tab-link.active {
-  background: #f8e4a4;
-  color: #fff;
-  border-color: #f8e4a4;
+  background: #fff;      /* Blanco al pasar el cursor */
+  color: #000;           /* Mantiene el texto negro */
+  border-color: #f8e4a4; /* Borde beige */
   transform: scale(1.03);
 }
+
 .video-grid {
 
   display: grid;
