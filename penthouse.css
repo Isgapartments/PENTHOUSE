@@ -14,15 +14,6 @@ background-image: url(logo2.jpeg);
 }
 
 
-.tabs {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 90vw;         /* Ocupa casi todo el ancho de la ventana */
-  height: 70vh;        /* Ocupa gran parte del alto de la ventana */
-  margin: 40px auto;   /* Centrado */
-  gap: 5vw;            /* Separación entre cuadros */
-}
 
 .tabs {
   display: flex;
