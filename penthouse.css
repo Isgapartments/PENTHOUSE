@@ -19,7 +19,7 @@ background-image: url(logo2.jpeg);
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  width: 60vw;         /* Ocupa casi todo el ancho de la ventana */
+  width: 40vw;         /* Ocupa casi todo el ancho de la ventana */
   height: 40vh;        /* Ocupa gran parte del alto de la ventana */
   margin: 40px auto;   /* Centrado */
   gap: 5vw;            /* Separación entre cuadros */
