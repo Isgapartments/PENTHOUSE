@@ -16,10 +16,10 @@ background-image: url(logo2.jpeg);
 
 .tabs {
   display: inline-block;     /* Solo ocupan el espacio necesario */
-  max-width: 320px;          /* O el valor que prefieras */
+  max-width: 600px;          /* O el valor que prefieras */
   width: auto;               /* No ocupan todo el ancho */
   font-size: 14px;           /* Más pequeño */
-  padding: 4px 8px;          /* Más compacto */
+  padding: 8px 16px;          /* Más compacto */
   margin: 12px auto;         /* Centrado con espacio arriba y abajo */
   border-radius: 6px;        /* Opcional: bordes redondeados */
   box-sizing: border-box;
@@ -44,7 +44,7 @@ background-image: url(logo2.jpeg);
   flex: 1 1 0;
   aspect-ratio: 1/1;
   height: 100%;
-  font-size: 2.5vw;
+  font-size: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
