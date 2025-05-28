@@ -14,12 +14,21 @@ background-image: url(logo2.jpeg);
 }
 
 
-
 .tabs {
-  font-size: 16px;      /* Tamaño de fuente más pequeño */
-  padding: 6px 12px;    /* Menos espacio interno */
-  width: 40%;          /* O ajusta según tu diseño */
+  display: inline-block;     /* Solo ocupan el espacio necesario */
+  max-width: 320px;          /* O el valor que prefieras */
+  width: auto;               /* No ocupan todo el ancho */
+  font-size: 14px;           /* Más pequeño */
+  padding: 4px 8px;          /* Más compacto */
+  margin: 12px auto;         /* Centrado con espacio arriba y abajo */
+  border-radius: 6px;        /* Opcional: bordes redondeados */
   box-sizing: border-box;
+}
+
+/* Centra el contenedor de tabs */
+.tabs-container {
+  display: flex;
+  justify-content: center;
 }
 
 /* Responsive: Ajusta aún más para pantallas pequeñas */
