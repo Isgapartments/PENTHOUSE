@@ -16,14 +16,20 @@ background-image: url(logo2.jpeg);
 
 
 .tabs {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 40px;         /* Ocupa casi todo el ancho de la ventana */
-  height: 40px;        /* Ocupa gran parte del alto de la ventana */
-  margin: 40px auto;   /* Centrado */
-  gap: 5vw;            /* Separación entre cuadros */
+  font-size: 16px;      /* Tamaño de fuente más pequeño */
+  padding: 6px 12px;    /* Menos espacio interno */
+  width: 100%;          /* O ajusta según tu diseño */
+  box-sizing: border-box;
 }
+
+/* Responsive: Ajusta aún más para pantallas pequeñas */
+@media (max-width: 600px) {
+  .tabs {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+}
+
 
 .tab-link {
   flex: 1 1 0;
