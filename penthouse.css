@@ -89,3 +89,22 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 10px;
 }
+
+.home-icon {
+    display: inline-block;
+    padding: 8px;
+    background: #333;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.2s;
+    margin-bottom: 15px;
+}
+.home-icon:hover {
+    background: #555;
+    color: #ffd700;
+}
+.home-icon svg {
+    vertical-align: middle;
+    pointer-events: none; /* El SVG no captura el click, sólo el enlace */
+}
