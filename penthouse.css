@@ -45,9 +45,9 @@ background-image: url(logo2.jpeg);
 /* Color al pasar el cursor */
 .tab-link:hover,
 .tab-link.active {
-  background: #f5a623;  /* Color de cambio al pasar el mouse (naranja) */
+  background: #ecebe9;  /* Color de cambio al pasar el mouse (naranja) */
   color: #fff;
-  border-color: #f5a623;
+  border-color: #f0efee;
   transform: scale(1.03);
 }
 .video-grid {
